@@ -1,0 +1,61 @@
+{
+    "strategy_types": {
+        "technical": {
+            "keywords": [
+                "indicator",
+                "pattern",
+                "trend"
+            ],
+            "components": [
+                "indicators",
+                "patterns",
+                "trends"
+            ],
+            "confidence": 1.0
+        },
+        "ict": {
+            "keywords": [
+                "liquidity",
+                "manipulation",
+                "institutional",
+                "order_block",
+                "fair_value_gap"
+            ],
+            "components": [
+                "market_structure",
+                "order_blocks",
+                "liquidity_voids"
+            ],
+            "confidence": 1.0
+        },
+        "orderflow": {
+            "keywords": [
+                "delta",
+                "footprint",
+                "volume",
+                "imbalance"
+            ],
+            "components": [
+                "order_flow",
+                "volume_analysis"
+            ],
+            "confidence": 1.0
+        },
+        "smart_money": {
+            "keywords": [
+                "institutional",
+                "accumulation",
+                "distribution",
+                "manipulation"
+            ],
+            "components": [
+                "market_structure",
+                "institutional_concepts"
+            ],
+            "confidence": 1.0
+        }
+    },
+    "learned_patterns": {},
+    "strategy_relationships": {},
+    "temporal_patterns": {}
+}
